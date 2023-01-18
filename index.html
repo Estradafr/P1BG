@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Exodus | RPG</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="./assets/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="page">
+        <!-- Context Box -->
+        <div class="content-box">
+          <!-- Character Stats Box -->
+          <div class="stats-box">
+            <!-- Character Level -->
+            <span class="stat">
+              Level:
+              <span id="lvlText">
+                <b> 1 </b>
+              </span>
+            </span>
+            <!-- Character Health -->
+            <span class="stat">
+              Health: 
+              <span id="healthText">
+                <b> 100 </b>
+              </span>
+            </span>
+            <!-- Character Money -->
+            <span class="stat">
+              Gold: 
+              <span id="goldText">
+                <b> 50 </b>
+              </span>
+            </span>
+          </div>
+
+          <!-- Text Box / Game Area -->
+          <div class="text-box">
+            <p id="gameText">Welcome to "Exodus"</p>
+            <p id="gameText2">Are you ready to begin?</p>
+          </div>
+          <!-- Game Controls -->
+          <div id="controls" class="buttons">
+            <!-- I want to hide the buttons when there is no other option. -->
+            <button id="leftBtn" type="button"></button>
+            <!-- Main button? -->
+            <button id="middleBtn" type="button">Begin!</button>
+            <button id="rightBtn" type="button"></button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
